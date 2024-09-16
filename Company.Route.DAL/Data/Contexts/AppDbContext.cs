@@ -27,5 +27,7 @@ namespace Company.Route.DAL.Data.Contexts
         //    optionsBuilder.UseSqlServer("Server = .; Database = CompanyMVC; Trusted_Connection = True; TrustServerCertificate = True");
         //}
         public DbSet<Department> Departments { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+
     }
 }

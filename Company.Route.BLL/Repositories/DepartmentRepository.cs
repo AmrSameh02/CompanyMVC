@@ -9,40 +9,10 @@ using System.Threading.Tasks;
 
 namespace Company.Route.BLL.Repositories
 {
-    public class DepartmentRepository : IDepartmentRepository
+    public class DepartmentRepository : GenericRepository<Department>,IDepartmentRepository
     {
-        private readonly AppDbContext _context;
-        public DepartmentRepository(AppDbContext context)
+        public DepartmentRepository(AppDbContext context):base(context) 
         {
-            _context = context;
-        }
-
-        public int Add(Department entity)
-        {
-            _context.Departments.Add(entity);
-            return _context.SaveChanges();
-        }
-
-        public int Delete(Department entity)
-        {
-            _context.Departments.Remove(entity);
-            return _context.SaveChanges();
-        }
-
-        public Department Get(int? id)
-        {
-            return _context.Departments.Find(id);
-        }
-
-        public IEnumerable<Department> GetAll()
-        {
-            return _context.Departments.ToList();
-        }
-
-        public int Update(Department entity)
-        {
-            _context.Departments.Update(entity);
-            return _context.SaveChanges();
-        }
+        }        
     }
 }

@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\My projects\\C#\\Company.Route Solution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|c:\\my projects\\c#\\company.route solution\\company.route.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|solutionrelative:company.route.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T21:46:41.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

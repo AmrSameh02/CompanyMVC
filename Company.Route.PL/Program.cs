@@ -18,7 +18,6 @@ namespace Company.Route.PL
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
             builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
-            builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
 
             var app = builder.Build();
 

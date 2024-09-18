@@ -10,4 +10,3 @@ C:\My projects\C#\Company.Route Solution\Company.Route.DAL\obj\Debug\net8.0\Comp
 C:\My projects\C#\Company.Route Solution\Company.Route.DAL\obj\Debug\net8.0\refint\Company.Route.DAL.dll
 C:\My projects\C#\Company.Route Solution\Company.Route.DAL\obj\Debug\net8.0\Company.Route.DAL.pdb
 C:\My projects\C#\Company.Route Solution\Company.Route.DAL\obj\Debug\net8.0\ref\Company.Route.DAL.dll
-C:\My projects\C#\Company.Route Solution\Company.Route.DAL\obj\Debug\net8.0\Company.Route.DAL.sourcelink.json

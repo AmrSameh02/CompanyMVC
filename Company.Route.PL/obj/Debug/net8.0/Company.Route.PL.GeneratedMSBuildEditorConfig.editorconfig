@@ -46,34 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Employee/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Employee/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Employee/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Employee/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Employee/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Employee/PartialViews/DeleteDetailsPartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFydGlhbFZpZXdzXERlbGV0ZURldGFpbHNQYXJ0aWFsVmlldy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Employee/PartialViews/EditCreateEmployeePartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFydGlhbFZpZXdzXEVkaXRDcmVhdGVFbXBsb3llZVBhcnRpYWxWaWV3LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Shared/_ButtonPartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXR0b25QYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/My projects/C\#/Company.Route Solution/Company.Route.PL/Views/Shared/_ValidationScriptsPartial.cshtml]

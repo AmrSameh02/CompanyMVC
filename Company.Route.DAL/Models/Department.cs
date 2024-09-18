@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Company.Route.DAL.Models
 {
-    public class Department:BaseEntity
+    public class Department
     {
         public int Id { get; set; }
 

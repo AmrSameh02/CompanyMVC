@@ -255,4 +255,3 @@ C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\runti
 C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-C:\My projects\C#\Company.Route Solution\Company.Route.PL\obj\Debug\net8.0\Company.Route.PL.sourcelink.json

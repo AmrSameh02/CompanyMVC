@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Company.Route.BLL.Interfaces
 {
-    public interface IDepartmentRepository:IGenreicRepository<Department>
+    public interface IDepartmentRepository
     {
-        //IEnumerable<Department> GetAll();
-        //Department Get(int? id);
-        //int Add(Department entity);
-        //int Update(Department entity);
-        //int Delete(Department entity);
+        IEnumerable<Department> GetAll();
+
+        Department Get(int? id);
+        int Add(Department entity);
+        int Update(Department entity);
+        int Delete(Department entity);
     }
 }

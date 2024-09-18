@@ -13,4 +13,3 @@ C:\My projects\C#\Company.Route Solution\Company.Route.BLL\bin\Debug\net8.0\Comp
 C:\My projects\C#\Company.Route Solution\Company.Route.BLL\bin\Debug\net8.0\Company.Route.DAL.pdb
 C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Debug\net8.0\Company.Route.BLL.csproj.AssemblyReference.cache
 C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Debug\net8.0\Company..B3E3C443.Up2Date
-C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Debug\net8.0\Company.Route.BLL.sourcelink.json

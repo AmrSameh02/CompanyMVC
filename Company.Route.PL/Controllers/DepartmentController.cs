@@ -38,9 +38,10 @@ namespace Company.Route.PL.Controllers
                 }
             }
             return View(model);
+
         }
 
-        public IActionResult Details(int? id, string viewName = "Details")
+        public IActionResult Details(int? id)
         {
             if (id is null)
                 return BadRequest();
@@ -49,17 +50,16 @@ namespace Company.Route.PL.Controllers
             if (department is null)
                 return NotFound();
 
-            return View(viewName,department);
+            return View(department);
         }
 
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            //if (id is null) return BadRequest();
-            //var department = _departmentRepository.Get(id.Value);
-            //if (department is null) return NotFound();
-            //return View(department);
-              return Details(id,"Edit");
+            if (id is null) return BadRequest();
+            var department = _departmentRepository.Get(id.Value);
+            if (department is null) return NotFound();
+            return View(department);
         }
 
         [HttpPost]
@@ -90,13 +90,12 @@ namespace Company.Route.PL.Controllers
         [HttpGet]
         public IActionResult Delete(int? id)
         {
-            //if (id is null) return BadRequest();
-            //var department = _departmentRepository.Get(id.Value);
+            if (id is null) return BadRequest();
+            var department = _departmentRepository.Get(id.Value);
 
-            //if (department is null)return NotFound();
+            if (department is null)return NotFound();
 
-            //return View(department);
-            return Details(id, "Delete");
+            return View(department);
         }
 
         [HttpPost]

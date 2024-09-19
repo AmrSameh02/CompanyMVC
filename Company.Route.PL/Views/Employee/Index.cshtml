@@ -6,10 +6,24 @@
 
 <h1>All Employees</h1>
 <br />
+<form asp-action="Index">
+    <div class="row">
+            <div class="col-8">
+            <input type="text" name="InputSearch" class="form-control" />
+            </div>    
+            <div class="col-4">
+                <input type="submit" name="Search" class="btn btn-success" />
+            </div>
+    </div>
+ </form>
+
+<br />
 <br />
 <a asp-action="Create" class="btn btn-primary">Create Employee</a>
 <br />
 <br />
+
+
 
 @if(Model.Count()> 0)
 {
@@ -18,6 +32,7 @@
             <tr>
                 <th>@Html.DisplayNameFor(E => E.Name)</th>
                 <th>@Html.DisplayNameFor(E => E.Age)</th>
+                <th>@Html.DisplayNameFor(E => E.WorkFor)</th>
                 <th>@Html.DisplayNameFor(E => E.Address)</th>
                 <th>@Html.DisplayNameFor(E => E.Email)</th>
                 <th>@Html.DisplayNameFor(E => E.PhoneNumber)</th>
@@ -35,6 +50,7 @@
                 <tr>
                     <td>@employee.Name</td>
                     <td>@employee.Age</td>
+                    <td>@employee.WorkFor?.Name</td>
                     <td>@employee.Address</td>
                     <td>@Html.DisplayFor(E => employee.Email)</td>
                     <td>@employee.PhoneNumber</td>

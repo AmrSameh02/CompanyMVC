@@ -1,3 +1,4 @@
+using Company.Route.BLL;
 using Company.Route.BLL.Interfaces;
 using Company.Route.BLL.Repositories;
 using Company.Route.DAL.Data.Contexts;
@@ -17,9 +18,9 @@ namespace Company.Route.PL
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
-            builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
-
+            //builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
+            //builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

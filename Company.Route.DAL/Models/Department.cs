@@ -18,5 +18,6 @@ namespace Company.Route.DAL.Models
         public string Name { get; set; }
         public DateTime DateOfCreation { get; set; }
 
+        public ICollection<Employee>? Employees { get; set; }
     }
 }

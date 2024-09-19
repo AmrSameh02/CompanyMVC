@@ -9,6 +9,7 @@ namespace Company.Route.BLL.Interfaces
 {
     public interface IEmployeeRepository:IGenreicRepository<Employee>
     {
+        IEnumerable<Employee> GetByName(string name);
         //IEnumerable<Employee> GetAll();
         //Employee Get(int? id);
         //int Add(Employee entity);

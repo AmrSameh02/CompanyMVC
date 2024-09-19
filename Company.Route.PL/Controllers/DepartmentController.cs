@@ -7,17 +7,21 @@ namespace Company.Route.PL.Controllers
 {
     public class DepartmentController : Controller
     {
-        private readonly IDepartmentRepository _departmentRepository;
+        //private readonly IDepartmentRepository _departmentRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public DepartmentController(IDepartmentRepository departmentRepository)
+        public DepartmentController(//IDepartmentRepository departmentRepository,
+               IUnitOfWork unitOfWork                     
+            )
         {
-            _departmentRepository = departmentRepository;
+            //_departmentRepository = departmentRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            var departments = _departmentRepository.GetAll();
+            var departments = _unitOfWork.DepartmentRepository.GetAll();
             return View(departments);
         }
         [HttpGet]
@@ -30,8 +34,8 @@ namespace Company.Route.PL.Controllers
         {
             if(ModelState.IsValid)
             {
-                var count = _departmentRepository.Add(model);
-
+                _unitOfWork.DepartmentRepository.Add(model);
+                var count = _unitOfWork.Complete();
                 if (count > 0)
                 {
                     return RedirectToAction("Index");
@@ -44,7 +48,7 @@ namespace Company.Route.PL.Controllers
         {
             if (id is null)
                 return BadRequest();
-            var department = _departmentRepository.Get(id.Value);
+            var department = _unitOfWork.DepartmentRepository.Get(id.Value);
 
             if (department is null)
                 return NotFound();
@@ -72,7 +76,8 @@ namespace Company.Route.PL.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    var count = _departmentRepository.Update(model);
+                    _unitOfWork.DepartmentRepository.Update(model);
+                    var count = _unitOfWork.Complete();
                     if (count > 0)
                     {
                         return RedirectToAction(nameof(Index));
@@ -108,7 +113,8 @@ namespace Company.Route.PL.Controllers
                 if (id != model.Id) return BadRequest();
                 if (!ModelState.IsValid)
                 {
-                    var count = _departmentRepository.Delete(model);
+                    _unitOfWork.DepartmentRepository.Delete(model);
+                    var count = _unitOfWork.Complete();
                     if (count > 0)
                     {
                         return RedirectToAction(nameof(Index));

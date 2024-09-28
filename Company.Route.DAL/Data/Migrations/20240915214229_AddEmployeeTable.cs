@@ -24,9 +24,9 @@ namespace Company.Route.DAL.Data.Migrations
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
-                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: true),
                     HiringDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    DateOfCreation = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    DateOfCreation = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {

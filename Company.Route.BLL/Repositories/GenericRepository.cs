@@ -19,9 +19,9 @@ namespace Company.Route.BLL.Repositories
             _context = context;
         }
 
-        public void Add(T entity)
+        public async Task AddAsync(T entity)
         {
-            _context.Add(entity);
+            await _context.AddAsync(entity);
         }
 
         public void Delete(T entity)
@@ -29,18 +29,18 @@ namespace Company.Route.BLL.Repositories
             _context.Remove(entity);
         }
 
-        public T Get(int? id)
+        public async Task<T> GetAsync(int? id)
         {
-            return _context.Set<T>().Find(id);
+            return await _context.Set<T>().FindAsync(id);
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
             if(typeof(T) == typeof(Employee))
             {
-                return (IEnumerable<T>) _context.Employees.Include(e => e.WorkFor).ToList();
+                return (IEnumerable<T>) await _context.Employees.Include(e => e.WorkFor).ToListAsync();
             }
-            return _context.Set<T>().ToList();
+            return await _context.Set<T>().ToListAsync();
         }
 
         public void Update(T entity)

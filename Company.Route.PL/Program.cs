@@ -2,6 +2,9 @@ using Company.Route.BLL;
 using Company.Route.BLL.Interfaces;
 using Company.Route.BLL.Repositories;
 using Company.Route.DAL.Data.Contexts;
+using Company.Route.DAL.Models;
+using Company.Route.PL.Mapping;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Company.Route.PL
@@ -21,6 +24,18 @@ namespace Company.Route.PL
             //builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
             //builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddAutoMapper(typeof(EmployeeProfile));
+            //builder.Services.AddScoped<UserManager<ApplicationUser>>();
+
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
+
+            builder.Services.ConfigureApplicationCookie(config =>
+            {
+                config.LoginPath = "/Account/SignIn";
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -36,6 +51,7 @@ namespace Company.Route.PL
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

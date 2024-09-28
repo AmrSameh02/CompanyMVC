@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\Company.Route.PL.bundle.scp.css"
     },
     {
+      "Id": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\css\\AuthStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\AuthStyleSheet.css"
+    },
+    {
       "Id": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\files\\images\\bbd1b088-5a95-4d14-8ce9-415c2ae543c5WhatsApp Image 2023-11-13 at 20.16.24_5f8b3ff1.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\bbd1b088-5a95-4d14-8ce9-415c2ae543c5WhatsApp Image 2023-11-13 at 20.16.24_5f8b3ff1.jpg"
+    },
+    {
+      "Id": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\files\\images\\fdb76188-cc4d-4746-8cde-375328dfef39WhatsApp Image 2023-11-13 at 20.16.24_5f8b3ff1.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\fdb76188-cc4d-4746-8cde-375328dfef39WhatsApp Image 2023-11-13 at 20.16.24_5f8b3ff1.jpg"
     },
     {
       "Id": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\js\\site.js",

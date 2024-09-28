@@ -1,12 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\My projects\\C#\\Company.Route Solution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|c:\\my projects\\c#\\company.route solution\\company.route.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|solutionrelative:company.route.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|c:\\my projects\\c#\\company.route solution\\company.route.pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|solutionrelative:company.route.pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|c:\\my projects\\c#\\company.route solution\\company.route.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|solutionrelative:company.route.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Company.Route.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T18:15:44.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Company.Route.PL\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Company.Route.PL\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA0wBMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T18:15:04.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Company.Route.PL\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Company.Route.PL\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA6wCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T18:12:20.904Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

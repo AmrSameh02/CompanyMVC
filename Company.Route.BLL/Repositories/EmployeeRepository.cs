@@ -17,9 +17,9 @@ namespace Company.Route.BLL.Repositories
         {
         }
 
-        public IEnumerable<Employee> GetByName(string name)
+        public async Task<IEnumerable<Employee>> GetByNameAsync(string name)
         {
-            return _context.Employees.Where(e => e.Name.ToLower().Contains(name.ToLower())).Include(e => e.WorkFor).ToList();      
+            return await _context.Employees.Where(e => e.Name.ToLower().Contains(name.ToLower())).Include(e => e.WorkFor).ToListAsync();      
         }
     }
 }

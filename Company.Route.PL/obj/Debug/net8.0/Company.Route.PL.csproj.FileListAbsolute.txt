@@ -256,3 +256,10 @@ C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\runti
 C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\My projects\C#\Company.Route Solution\Company.Route.PL\obj\Debug\net8.0\Company.Route.PL.sourcelink.json
+C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\AutoMapper.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.PL\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

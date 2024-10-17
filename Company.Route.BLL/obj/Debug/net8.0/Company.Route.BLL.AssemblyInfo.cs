@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Company.Route.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b88fc663cfade16a05c59eb970c788ee341a5e3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83fcbb1456de1782b984a2588b1abe044e50b277")]
 [assembly: System.Reflection.AssemblyProductAttribute("Company.Route.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Company.Route.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

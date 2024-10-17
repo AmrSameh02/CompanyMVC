@@ -64,6 +64,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\6823aa66-b9ec-4b3c-b439-b0ebd9c972a9legion_game_shop.ico))">
+      <SourceType>Package</SourceType>
+      <SourceId>Company.Route.PL</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Company.Route.PL</BasePath>
+      <RelativePath>files/images/6823aa66-b9ec-4b3c-b439-b0ebd9c972a9legion_game_shop.ico</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\6823aa66-b9ec-4b3c-b439-b0ebd9c972a9legion_game_shop.ico))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\bbd1b088-5a95-4d14-8ce9-415c2ae543c5WhatsApp Image 2023-11-13 at 20.16.24_5f8b3ff1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Company.Route.PL</SourceId>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lqLFi66AQk5XpXrsWcM02IoEzRatKqRsvbitiNmeRTg=",
+  "Hash": "e3hitVWG3kZsAsmpgTo0pDWWU6UFYQuFZGyUq/zRnC8=",
   "Source": "Company.Route.PL",
   "BasePath": "_content/Company.Route.PL",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\files\\images\\6823aa66-b9ec-4b3c-b439-b0ebd9c972a9legion_game_shop.ico",
+      "SourceId": "Company.Route.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\",
+      "BasePath": "_content/Company.Route.PL",
+      "RelativePath": "files/images/6823aa66-b9ec-4b3c-b439-b0ebd9c972a9legion_game_shop.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\images\\6823aa66-b9ec-4b3c-b439-b0ebd9c972a9legion_game_shop.ico"
     },
     {
       "Identity": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\wwwroot\\files\\images\\bbd1b088-5a95-4d14-8ce9-415c2ae543c5WhatsApp Image 2023-11-13 at 20.16.24_5f8b3ff1.jpg",

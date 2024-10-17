@@ -41,6 +41,7 @@ namespace Company.Route.PL.Controllers
             return View(result);
         }
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create()
         {
             var departments = await _unitOfWork.DepartmentRepository.GetAllAsync();
@@ -48,6 +49,7 @@ namespace Company.Route.PL.Controllers
             return View();
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(EmployeeViewModel model)
         {
             if (ModelState.IsValid)
@@ -82,7 +84,8 @@ namespace Company.Route.PL.Controllers
 
             return View(result);
         }
-
+        
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         { 
@@ -97,6 +100,7 @@ namespace Company.Route.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit([FromRoute] int? id, EmployeeViewModel model)
         {
             try
@@ -130,6 +134,7 @@ namespace Company.Route.PL.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if(id is null) return BadRequest();
@@ -141,6 +146,7 @@ namespace Company.Route.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete([FromRoute]int? id,EmployeeViewModel model)
         {
             try

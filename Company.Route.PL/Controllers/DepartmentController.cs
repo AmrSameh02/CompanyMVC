@@ -23,11 +23,13 @@ namespace Company.Route.PL.Controllers
             return View(departments);
         }
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(Department model)
         {
             if(ModelState.IsValid)
@@ -55,6 +57,7 @@ namespace Company.Route.PL.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public Task<IActionResult> Edit(int? id)
         {
             //if (id is null) return BadRequest();
@@ -66,6 +69,7 @@ namespace Company.Route.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit([FromRoute]int? id, Department model)
         {
             try
@@ -90,6 +94,7 @@ namespace Company.Route.PL.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public Task<IActionResult> Delete(int? id)
         {
@@ -104,6 +109,7 @@ namespace Company.Route.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete([FromRoute] int? id, Department model)
         {
             try

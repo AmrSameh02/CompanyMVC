@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\My projects\\C#\\Company.Route Solution\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|c:\\my projects\\c#\\company.route solution\\company.route.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|solutionrelative:company.route.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|c:\\my projects\\c#\\company.route solution\\company.route.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4325DD8C-54D3-4451-AB90-90140B32E40B}|Company.Route.PL\\Company.Route.PL.csproj|solutionrelative:company.route.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "Company.Route.PL\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "Company.Route.PL\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACIAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T13:49:00.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "Company.Route.PL\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\My projects\\C#\\Company.Route Solution\\Company.Route.PL\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "Company.Route.PL\\Views\\Department\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T13:48:47.503Z",
-              "EditorCaption": ""
             }
           ]
         }

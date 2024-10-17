@@ -1,0 +1,16 @@
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\bin\Release\net8.0\Company.Route.BLL.deps.json
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\bin\Release\net8.0\Company.Route.BLL.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\bin\Release\net8.0\Company.Route.BLL.pdb
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\bin\Release\net8.0\Company.Route.DAL.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\bin\Release\net8.0\Company.Route.DAL.pdb
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.csproj.AssemblyReference.cache
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.AssemblyInfoInputs.cache
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.AssemblyInfo.cs
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.csproj.CoreCompileInputs.cache
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.sourcelink.json
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company..B3E3C443.Up2Date
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\refint\Company.Route.BLL.dll
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\Company.Route.BLL.pdb
+C:\My projects\C#\Company.Route Solution\Company.Route.BLL\obj\Release\net8.0\ref\Company.Route.BLL.dll

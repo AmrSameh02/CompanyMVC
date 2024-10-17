@@ -30,9 +30,10 @@
     <table class="table table-striped table-hover" >
         <thead>
             <tr>
+                <th>@Html.DisplayNameFor(E => E.Image)</th>
                 <th>@Html.DisplayNameFor(E => E.Name)</th>
                 <th>@Html.DisplayNameFor(E => E.Age)</th>
-                <th>@Html.DisplayNameFor(E => E.WorkFor)</th>
+                <th>Department</th>
                 <th>@Html.DisplayNameFor(E => E.Address)</th>
                 <th>@Html.DisplayNameFor(E => E.Email)</th>
                 <th>@Html.DisplayNameFor(E => E.PhoneNumber)</th>
@@ -49,7 +50,7 @@
             {
                 <tr>
                     <td>
-                        <img src="~/files/images/@employee.ImageName" width="75" class="rounded-circle"/>
+                        <img src="~/files/images/@employee.ImageName" width="65" class="rounded-circle"/>
                     </td>
                     <td>@employee.Name</td>
                     <td>@employee.Age</td>

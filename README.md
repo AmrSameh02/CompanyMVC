@@ -25,7 +25,8 @@
 Clone The Repository:
 
 ```powershell
-git clone https://github.com/AmrSameh02/CompanyMVC
+git clone https://github.com/AmrSameh02/CompanyMVC.git
+cd CompanyMVC
 ```
 
 ## Architecture And System Design

@@ -3,17 +3,26 @@
 @{
     ViewData["Title"] = "SignIn";
     Layout = "~/Views/Shared/_AuthLayout.cshtml";
+	<h1>Sign In</h1>
 }
 
 <div class="main-agileinfo">
-	<div asp-validation-summary="All"></div>
-	<div class="agileits-top">
+    <div class="agileits-top">
 		<form asp-action="SignIn">
-
-
-			<input class="text email" asp-for="Email" placeholder="Email" required="">
-			<input class="text" asp-for="Password" placeholder="Password" required="">
-			<br />
+			<div class="form-group">
+				<label asp-for="Email" class="col-form-label"></label>
+				<input asp-for="Email" class="form-control" />
+				<span asp-validation-for="Email" class="text-danger"></span>
+			</div>
+@* 			<input class="text email" asp-for="Email" placeholder="Email" required="">
+ *@
+			<div class="form-group">
+				<label asp-for="Password" class="col-form-label"></label>
+				<input asp-for="Password" class="form-control" />
+				<span asp-validation-for="Password" class="text-danger"></span>
+			</div>
+@* 			<input class="text" asp-for="Password" placeholder="Password" required="">
+ *@			<br />
 			<div class="wthree-text">
 				<label class="anim">
 					<input asp-for="RememberMe" class="checkbox">

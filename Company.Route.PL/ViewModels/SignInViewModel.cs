@@ -7,7 +7,7 @@ namespace Company.Route.PL.ViewModels
 		[EmailAddress(ErrorMessage = "Invalid Email")]
 		[Required(ErrorMessage = "Email Is Required")]
 		public string Email { get; set; }
-		[Required(ErrorMessage = "password Is REquired")]
+		[Required(ErrorMessage = "password Is Required")]
 		[DataType(DataType.Password)]
 		[MaxLength(16)]
 		[MinLength(4)]

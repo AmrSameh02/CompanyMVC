@@ -15,17 +15,14 @@ namespace Company.Route.PL
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            //builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
-            //builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
+
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddAutoMapper(typeof(EmployeeProfile));
-            //builder.Services.AddScoped<UserManager<ApplicationUser>>();
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
